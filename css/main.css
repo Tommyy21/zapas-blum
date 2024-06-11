@@ -1,0 +1,371 @@
+@font-face {
+    font-family: "Poetn";
+    src: url("../fonts/Poetn.ttf");
+    font-weight: 500;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+.primero {
+    color: #ff0000;
+    font-size: 1.3rem;
+    font-family: "Poetn";
+    margin-top: 50px ;
+
+
+}
+.negro {
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+}
+.blanco {
+    color: rgba(255, 255, 255, 0.89);
+}
+.morado {
+    color: blueviolet;
+}
+.verde {
+    color: green;
+
+}
+p {
+    font-size: 20px;
+}
+#tomasito{
+    background-color: aqua;
+}
+.blue {
+    color: blue;
+}
+.verde .centrar {
+    margin: auto;
+}
+.morado .centrar {
+   margin: auto;
+}
+.bordes {
+    border-top: 8px inset red;
+    border-right: 8px inset rgb(0, 195, 255);
+    border-bottom: 8px inset rgb(255, 0, 234);
+    border-left: 8px inset rgb(251, 255, 0);
+}
+.fondo {
+    background-image: url(../img/counter-strike-global-offensive-csgo_2560x1440_3200.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+            
+}
+.lospibes{
+    margin-left: 500px;
+}
+.hola {
+    width: 100px;
+}
+.chau {
+    border-top: 8px inset red;
+    border-right: 8px inset rgb(0, 195, 255);
+    border-bottom: 8px inset rgb(255, 0, 234);
+    border-left: 8px inset rgb(251, 255, 0);
+    font-size: 1.3rem;
+    background-color: pink;
+    padding: 1rem;
+}
+.seccion {
+    border: 8px inset #ff0000;
+    font-size: 1.5rem;
+
+}
+.onda {
+    display: inline-block;
+
+}
+.play {
+    border: 8px outset magenta;
+    width: 500px;
+
+}
+.secciones {
+    border: 8px outset white;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+}
+.perfil {
+    height: 50px;
+    margin-right: 800px;
+
+}
+.color{
+    color: rgb(255, 255, 255);
+    text-decoration: dashed;
+    padding-right: 40px;
+    margin-top: 13px;
+    font-size: 20px;
+    font-family: "Poetn";
+
+}
+.menu {
+    list-style: none;
+
+    display: flex;
+    justify-content: end;  
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    font-size: 30px;
+    
+}
+.lospibes {
+    margin-left: 500px;
+}
+.logo {
+    width: 200px;
+    margin-top: -50px;
+}
+.skins {
+    background-image: url(../img/counter-strike-global-offensive-csgo_2560x1440_3200.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.contacto {
+ background-image: url(../img/wallpaperbetter.com_1360x768.jpg);
+ 
+}
+.contactito {
+    color: rgb(255, 255, 255);
+
+}
+.skan {
+    color: rgb(0, 0, 0);
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.servicios {
+   background-image: url(../img/zapas.jpg); 
+
+}
+.servi {
+    color: rgb(255, 0, 0);
+    margin-top: 50px;
+    margin-left: 1000px;
+    font-family: "Poetn";
+    font-size: 1.5rem;
+}
+.atendemos {
+    color: white;
+    margin-top: 5px;
+    margin-left: 1000px;
+    font-size: 1.5rem;
+}
+.servici {
+    color: aqua;
+}
+.formu {
+    color: blue;
+    margin-left: 1000px;
+    font-family: "Poetn";
+    font-size: 1.5rem;
+}
+.anten {
+    color: white;
+    margin-top: 20px;
+    margin-left: 1000px;
+    font-size: 1.5rem;
+}
+.zapat {
+    background-color: rgb(255, 255, 255);
+}
+.apa {
+    text-decoration: dashed;
+    padding-right: 40px;
+    margin-top: 13px;
+    font-size: 20px;
+    font-family: "Poetn";  
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.aoa {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    font-size: 30px;
+    background-color: rgb(73, 23, 252);
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+.roju {
+    width: 305px;
+    border-top: 8px groove rgb(0, 0, 0);
+    border-right: 8px groove rgb(0, 0, 0);
+    border-bottom: 8px groove rgb(0, 0, 0);
+    border-left: 8px groove rgb(0, 0, 0);
+}
+.amarila {
+    width: 305px; 
+    border-top: 8px groove rgb(0, 0, 0);
+    border-right: 8px groove rgb(0, 0, 0);
+    border-bottom: 8px groove rgb(0, 0, 0);
+    border-left: 8px groove rgb(0, 0, 0);
+}
+.foto3 {
+    width: 305px;  
+    justify-content: start;
+    border-top: 8px groove rgb(0, 0, 0);
+    border-right: 8px groove rgb(0, 0, 0);
+    border-bottom: 8px groove rgb(0, 0, 0);
+    border-left: 8px groove rgb(0, 0, 0);
+}
+.mover {   
+      display: block;
+}
+.jordan {
+    
+    margin-top: -380px;
+    font-size: 1.5rem;
+    border-top: 8px groove rgb(0, 0, 0);
+    border-right: 8px groove rgb(0, 0, 0);
+    border-bottom: 8px groove rgb(0, 0, 0);
+    border-left: 8px groove rgb(0, 0, 0);
+    padding: 1rem;
+    width: 300px;
+}
+.alaa2 {
+    margin-left: 22rem;
+    margin-top: -150px;
+    font-size: 1.5rem;
+    border-top: 8px groove rgb(0, 0, 0);
+    border-right: 8px groove rgb(0, 0, 0);
+    border-bottom: 8px groove rgb(0, 0, 0);
+    border-left: 8px groove rgb(0, 0, 0);
+    padding: 1rem;
+    width: 300px;
+}
+.alaa6 {
+    margin-left: 44rem;
+    margin-top: -180px;
+    font-size: 1.5rem;
+    border-top: 8px groove rgb(0, 0, 0);
+    border-right: 8px groove rgb(0, 0, 0);
+    border-bottom: 8px groove rgb(0, 0, 0);
+    border-left: 8px groove rgb(0, 0, 0);
+    padding: 1rem;
+    width: 300px;
+}
+.info {
+    background-image: url(../img/22222\ \(1\).jpg);
+}
+.blanco {
+    color: white;
+    font-size: 2rem;
+    background-color: rgb(255, 17, 0);
+    width: 450px;
+    margin-left: 20px;
+}
+.colorado {
+    background-color: white;
+    width: 500px;
+    border-top: 8px solid rgb(0, 225, 255);
+    border-right: 8px solid rgb(0, 225, 255);
+    border-bottom: 8px solid rgb(0, 225, 255);
+    border-left: 8px solid rgb(0, 225, 255);
+}
+.pepe {
+    background-color: white;
+    width: 500px;
+    border-top: 8px solid rgb(0, 225, 255);
+    border-right: 8px solid rgb(0, 225, 255);
+    border-bottom: 8px solid rgb(0, 225, 255);
+    border-left: 8px solid rgb(0, 225, 255);
+    margin-top: 20px;
+}
+.footer {
+    margin-top: 700px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-top: 12px;
+    margin-bottom: 20;  
+}
+.peeepe {
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);  
+    background-repeat: no-repeat;
+}
+.popo {
+    background-color: black;
+    width: 510px;
+    color: aqua;
+    background-repeat: no-repeat;
+}
+.contacto1 {
+    background-color: black;
+    width: 500px;
+    color: aqua;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+}
+.contacto20 {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    
+}
+.informacion1 {
+    background-color: black;
+    width: 500px;
+    color: aqua;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+}
+.info2 {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+}
+.clase {
+    background-color: black;
+    width: 500px;
+    color: aqua;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+}
+.lavida {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+}
+.servicio2 {
+    background-color: black;
+    width: 500px;
+    color: aqua;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+}
+.servicia {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+}
+.contenedor {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    border: 2px solid red;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 100px;
+    gap: 3rem;
+}
+.acortar {
+   max-width: 100%;
+}
+
+
